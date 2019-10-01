@@ -808,11 +808,16 @@ select {
     box-shadow: 0 1px 18px #111;
     border-radius: 6px; }
   .rivalry__result {
+    position: relative;
     margin: 0;
     padding: 1.6rem 0 1.4rem;
     font-size: 1.8rem;
     font-weight: 700;
     color: #eee; }
+  .rivalry .game-version {
+    position: absolute;
+    top: 1rem;
+    left: 1rem; }
   .rivalry__result + .rivalry__result {
     border-top: .3rem solid #333; }
   .rivalry .scorebox {

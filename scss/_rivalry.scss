@@ -51,10 +51,10 @@
         border-radius: 6px;
         box-shadow: 0 1px 18px #111;
     }
-    
+
     &__stat {
         padding: 1rem;
-        
+
         &--streak,
         &--highStreak {
             flex: 1;
@@ -73,7 +73,7 @@
             span {
                 font-size: 3rem;
             }
-        
+
             span + span {
                 margin-left: 30rem;
 
@@ -189,11 +189,18 @@
     }
 
     &__result {
+        position: relative;
         margin: 0;
         padding: 1.6rem 0 1.4rem;
         font-size: 1.8rem;
         font-weight: 700;
         color: $body-text-color;
+    }
+
+    .game-version {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
     }
 
     &__result + &__result {
